@@ -1,3 +1,6 @@
 <?php
 
-echo "Olá Mundo";
+chdir(dirname(__DIR__));
+
+
+include 'src/index.php';
