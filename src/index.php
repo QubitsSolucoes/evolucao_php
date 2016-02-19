@@ -7,9 +7,9 @@
 
 <h1>Bem-vindo a minha página</h1>
 
-<br/><br/><br/> <?php include 'header.php'; ?>
-<br/><br/><br/> <?php include 'content.php'; ?>
-<br/><br/><br/> <?php include 'footer.php'; ?>
+<br/><br/><br/> <?php include APP_PATH . 'src/header.php'; ?>
+<br/><br/><br/> <?php include APP_PATH . 'src/content.php'; ?>
+<br/><br/><br/> <?php include APP_PATH .'src/footer.php'; ?>
 
 </body>
 </html>
