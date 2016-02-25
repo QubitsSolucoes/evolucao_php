@@ -1,3 +1,6 @@
-<?php include 'PHPMailer/class.phpmailer.php'?>
+<?php
 
+$var = new PHPMailer();
+
+?>
 Meu fale conosco
