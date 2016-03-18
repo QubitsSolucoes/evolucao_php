@@ -1,0 +1,18 @@
+{
+    "name": "root/exemplo_php_puro",
+    "description": "Descrição para o meu site",
+    "authors": [
+        {
+            "name": "Luiz",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "3.8.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "SON\\Teste\\": "src"
+        }
+    }
+}
